@@ -48,7 +48,7 @@ The dataset contains records of residential house sales, including:
 
 **Linear Regression** (`sklearn.linear_model.LinearRegression`)
 
-Features were pre-processed with standard scaling and irrelevant identifiers (e.g., `id`, `date`) were dropped prior to training. An 80/20 train-test split was used.
+Features were pre-processed with standard scaling and irrelevant identifiers (e.g., `id`) were dropped prior to training. An 80/20 train-test split was used.
 
 ---
 
