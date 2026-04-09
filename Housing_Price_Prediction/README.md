@@ -39,7 +39,8 @@ The dataset contains records of residential house sales, including:
 
 ![Correlation Heatmap](images/correlation_heatmap.png)
 
-> The heatmap reveals that features such as `sqft_living`, `grade`, and `sqft_above` are among the strongest positive correlates with house price. Highly correlated feature pairs were identified to assess multicollinearity before model training.
+> The correlation heatmap shows relationships between numerical features in the dataset. Some features exhibit strong positive correlations, while others show weak or negative relationships. This helps in understanding feature dependencies and identifying multicollinearity.
+
 
 ---
 
@@ -69,7 +70,7 @@ Features were pre-processed with standard scaling and irrelevant identifiers (e.
 
 ![Feature Importance](images/feature_importance.png)
 
-> Displays the magnitude of regression coefficients (or feature importances), highlighting which attributes most strongly drive predicted price. `sqft_living` and `grade` consistently rank among the top predictors.
+> Displays the magnitude of regression coefficients (or feature importances), highlighting which attributes most strongly drive predicted price. `area` and `bhk` consistently rank among the top predictors.
 
 ---
 
